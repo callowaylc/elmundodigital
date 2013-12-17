@@ -1,0 +1,1137 @@
+iPhone Carrier List - Model Numbers
+
+Country: Argentina
+Carrier: Claro
+
+MB489LE/A
+MB496LE/A
+MB500LE/A
+MC131LE/A
+MC132LE/A
+MC133LE/A
+MC134LE/A
+
+====================
+Country: Argentina
+Carrier: Movistar
+
+MB489LE/A
+MB496LE/A
+MB500LE/A
+MC131LE/A
+MC132LE/A
+MC133LE/A
+MC134LE/A
+
+====================
+Country: Argentina
+Carrier: Personal
+
+MB489LE/A
+MB496LE/A
+MB500LE/A
+MC131LE/A
+MC132LE/A
+MC133LE/A
+MC134LE/A
+
+====================
+Country: Australia
+Carrier: 3
+
+MB489X/A
+MB496X/A
+MB500X/A
+MC131X/A
+MC132X/A
+MC133X/A
+MC134X/A
+
+====================
+Country: Australia
+Carrier: Optus
+
+MB489X/A
+MB496X/A
+MB500X/A
+MC131X/A
+MC132X/A
+MC133X/A
+MC134X/A
+
+====================
+Country: Australia
+Carrier: Telstra
+
+MB489X/A
+MB496X/A
+MB500X/A
+MC131X/A
+MC132X/A
+MC133X/A
+MC134X/A
+
+====================
+Country: Australia
+Carrier: Vodafone
+
+MB489X/A
+MB496X/A
+MB500X/A
+MC131X/A
+MC132X/A
+MC133X/A
+MC134X/A
+
+====================
+Country: Austria
+Carrier: Orange
+
+MB489FD/A
+MB496FD/A
+MB500FD/A
+MC131FD/A
+MC132FD/A
+MC133FD/A
+MC134FD/A
+
+====================
+Country: Austria
+Carrier: T-Mobile
+
+MB490DN/A
+MB497DN/A
+MB501DN/A
+MC139DN/A
+MC140DN/A
+MC141DN/A
+MC142DN/A
+
+====================
+Country: Belgium
+Carrier: Mobistar
+
+MB489NF/A
+MB496NF/A
+MB500NF/A
+MC131NF/A
+MC132NF/A
+MC133NF/A
+MC134NF/A
+
+====================
+Country: Canada
+Carrier: Bell
+
+MB629C/A
+MB630C/A
+MB631C/A
+MB632C/A
+MB633C/A
+MB634C/A
+MB635C/A
+MB636C/A
+MC143C/A
+MC144C/A
+MC145C/A
+MC146C/A
+MC147C/A
+MC148C/A
+MC149C/A
+MC150C/A
+
+====================
+Country: Canada
+Carrier: Fido
+
+MB629C/A
+MB630C/A
+MB631C/A
+MB632C/A
+MB633C/A
+MB634C/A
+MB635C/A
+MB636C/A
+MC143C/A
+MC144C/A
+MC145C/A
+MC146C/A
+MC147C/A
+MC148C/A
+MC149C/A
+MC150C/A
+
+====================
+Country: Canada
+Carrier: Rogers
+
+MB629C/A
+MB630C/A
+MB631C/A
+MB632C/A
+MB633C/A
+MB634C/A
+MB635C/A
+MB636C/A
+MC143C/A
+MC144C/A
+MC145C/A
+MC146C/A
+MC147C/A
+MC148C/A
+MC149C/A
+MC150C/A
+
+====================
+Country: Canada
+Carrier: Telus
+
+MB629C/A
+MB630C/A
+MB631C/A
+MB632C/A
+MB633C/A
+MB634C/A
+MB635C/A
+MB636C/A
+MC143C/A
+MC144C/A
+MC145C/A
+MC146C/A
+MC147C/A
+MC148C/A
+MC149C/A
+MC150C/A
+
+====================
+Country: Canada
+Carrier: Virgin Mobile
+
+MB629C/A
+MB630C/A
+MB631C/A
+MB632C/A
+MB633C/A
+MB634C/A
+MB635C/A
+MB636C/A
+MC143C/A
+MC144C/A
+MC145C/A
+MC146C/A
+MC147C/A
+MC148C/A
+MC149C/A
+MC150C/A
+
+====================
+Country: Chile
+Carrier: Claro
+
+MB489LZ/A
+MB496LZ/A
+MB500LZ/A
+MC131LZ/A
+MC132LZ/A
+MC133LZ/A
+MC134LZ/A
+
+====================
+Country: Chile
+Carrier: Entel PCS
+
+MB489LZ/A
+MB496LZ/A
+MB500LZ/A
+MC131LZ/A
+MC132LZ/A
+MC133LZ/A
+MC134LZ/A
+
+====================
+Country: Chile
+Carrier: TMC
+
+MB489LZ/A
+MB496LZ/A
+MB500LZ/A
+MC131LZ/A
+MC132LZ/A
+MC133LZ/A
+MC134LZ/A
+
+====================
+Country: Colombia
+Carrier: Comcel
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Colombia
+Carrier: Movistar
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Czech Republic
+Carrier: O2
+
+MB489CZ/A
+MB496CZ/A
+MB500CZ/A
+MC131CZ/A
+MC132CZ/A
+MC133CZ/A
+MC134CZ/A
+
+====================
+Country: Czech Republic
+Carrier: T-Mobile
+
+MB490CZ/A
+MB497CZ/A
+MB501CZ/A
+MC139CZ/A
+MC140CZ/A
+MC141CZ/A
+MC142CZ/A
+
+====================
+Country: Czech Republic
+Carrier: Vodafone
+
+MB489CZ/A
+MB496CZ/A
+MB500CZ/A
+MC131CZ/A
+MC132CZ/A
+MC133CZ/A
+MC134CZ/A
+
+====================
+Country: Ecuador
+Carrier: Porta
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Ecuador
+Carrier: Movistar
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Egypt
+Carrier: Mobinil
+
+MB489AB/A
+MB496AB/A
+MB500AB/A
+MC131AB/A
+MC132AB/A
+MC133AB/A
+
+====================
+Country: Egypt
+Carrier: Vodafone
+
+MB489AB/A
+MB496AB/A
+MB500AB/A
+MC131AB/A
+MC132AB/A
+MC133AB/A
+MC134AB/A
+
+====================
+Country: El Salvador
+Carrier: Claro
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: El Salvador
+Carrier: Movistar
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Estonia
+Carrier: EMT
+
+MB489EE/A
+MB496EE/A
+MB500EE/A
+MC131EE/A
+MC132EE/A
+MC133EE/A
+MC134EE/A
+
+====================
+Country: Finland
+Carrier: Sonera
+
+MB489KS/A
+MB496KS/A
+MB500KS/A
+MC131KS/A
+MC132KS/A
+MC133KS/A
+MC134KS/A
+
+====================
+Country: France
+Carrier: Orange
+
+MB489NF/A
+MB496NF/A
+MB500NF/A
+MC131NF/A
+MC132NF/A
+MC133NF/A
+MC134NF/A
+
+====================
+Country: France
+Carrier: Bouygues
+MB489FB/A
+
+====================
+Country: Germany
+Carrier: T-Mobile
+
+MB490DN/A
+MB497DN/A
+MB501DN/A
+MC139DN/A
+MC140DN/A
+MC141DN/A
+MC142DN/A
+
+====================
+Country: Greece
+Carrier: Vodafone
+
+MB489GR/A
+MB496GR/A
+MB500GR/A
+MC131GR/A
+MC132GR/A
+MC133GR/A
+MC134GR/A
+
+====================
+Country: Guatamela
+Carrier: Claro
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Guatamela
+Carrier: Movistar
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Honduras
+Carrier: Claro
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Hong Kong
+Carrier: 3
+
+MB489ZP/A
+MB496ZP/A
+MB500ZP/A
+MC131ZP/A
+MC132ZP/A
+MC133ZP/A
+MC134ZP/A
+
+====================
+Country: Hong Kong
+Carrier: SmarTone-Vodafone
+
+MB489ZP/A
+MB496ZP/A
+MB500ZP/A
+MC131ZP/A
+MC132ZP/A
+MC133ZP/A
+MC134ZP/A
+
+====================
+Country: Hungary
+Carrier: T-Mobile
+
+MB490MG/A
+MB497MG/A
+MB501MG/A
+MC139MG/A
+MC140MG/A
+MC141MG/A
+MC142MG/A
+
+====================
+Country: India
+Carrier: Airtel
+
+MB489HN/A
+MB496HN/A
+MB500HN/A
+MC131HN/A
+MC132HN/A
+MC133HN/A
+MC134HN/A
+
+====================
+Country: India
+Carrier: Vodafone
+
+MB489HN/A
+MB496HN/A
+MB500HN/A
+MC131HN/A
+MC132HN/A
+MC133HN/A
+MC134HN/A
+
+====================
+Country: Ireland
+Carrier: O2
+
+MB489B/A
+MB496B/A
+MB500B/A
+MC131B/A
+MC132B/A
+MC133B/A
+MC134B/A
+MC603B/A ++++++NEW iPHONE 4
+
+====================
+Country: Italy
+Carrier: 3
+
+MB489T/A
+MB496T/A
+MB500T/A
+MC131T/A
+MC132T/A
+MC133T/A
+MC134T/A
+
+====================
+Country: Italy
+Carrier: TIM
+
+MB489T/A
+MB496T/A
+MB500T/A
+MC131T/A
+MC132T/A
+MC133T/A
+MC134T/A
+
+====================
+Country: Italy
+Carrier: Vodafone
+
+MB489T/A
+MB496T/A
+MB500T/A
+MC131T/A
+MC132T/A
+MC133T/A
+MC134T/A
+
+====================
+Country: Japan
+Carrier: SoftBank
+
+MB489J/A
+MB496J/A
+MB500J/A
+MC131J/A
+MC132J/A
+MC133J/A
+MC134J/A
+
+====================
+Country: ******
+Carrier: Orange
+
+MB489AB/A
+MB496AB/A
+MB500AB/A
+MC131AB/A
+MC132AB/A
+MC133AB/A
+MC134AB/A
+
+====================
+Country: Liechtenstein
+Carrier: Orange
+
+MB489FD/A
+MB496FD/A
+MB500FD/A
+MC131FD/A
+MC132FD/A
+MC133FD/A
+MC134FD/A
+
+====================
+Country: Liechtenstein
+Carrier: Swisscom
+
+MB489FD/A
+MB496FD/A
+MB500FD/A
+MC131FD/A
+MC132FD/A
+MC133FD/A
+MC134FD/A
+
+====================
+Country: Luxembourg
+Carrier: Vox Mobile
+
+MB489NF/A
+MB496NF/A
+MB500NF/A
+MC131NF/A
+MC132NF/A
+MC133NF/A
+MC134NF/A
+
+====================
+Country: Luxembourg
+Carrier: LUXGSM
+
+MB489FB/A
+MB496FB/A
+MB500FB/A
+MC131FB/A
+MC132FB/A
+MC133FB/A
+MC134FB/A
+
+====================
+Country: Luxembourg
+Carrier: Tango
+
+MB489FB/A
+MB496FB/A
+MB500FB/A
+MC131FB/A
+MC132FB/A
+MC133FB/A
+MC134FB/A
+
+====================
+Country: Macau
+Carrier: 3
+
+MB489ZP/A
+MB496ZP/A
+MB500ZP/A
+MC131ZP/A
+MC132ZP/A
+MC133ZP/A
+MC134ZP/A
+
+====================
+Country: Mexico
+Carrier: Telcel
+
+MB489E/A
+MB496E/A
+MB500E/A
+MC131E/A
+MC132E/A
+MC133E/A
+MC134E/A
+
+====================
+Country: Netherlands
+Carrier: T-Mobile
+
+MB490DN/A
+MB497DN/A
+MB501DN/A
+MC139DN/A
+MC140DN/A
+MC141DN/A
+MC142DN/A
+
+====================
+Country: New Zealand
+Carrier: Vodafone
+
+MB489X/A
+MB496X/A
+MB500X/A
+MC131X/A
+MC132X/A
+MC133X/A
+MC134X/A
+
+====================
+Country: Norway
+Carrier: NetcCom
+
+MB489KN/A
+MB496KN/A
+MB500KN/A
+MC131KN/A
+MC132KN/A
+MC133KN/A
+MC134KN/A
+
+====================
+Country: Paraguay
+Carrier: CTI Movil
+
+MB489LZ/A
+MB496LZ/A
+MB500LZ/A
+MC131LZ/A
+MC132LZ/A
+MC133LZ/A
+MC134LZ/A
+
+====================
+Country: Peru
+Carrier: Claro
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Peru
+Carrier: TM SAC
+
+MB489LA/A
+MB496LA/A
+MB500LA/A
+MC131LA/A
+MC132LA/A
+MC133LA/A
+MC134LA/A
+
+====================
+Country: Philippines
+Carrier: Globe
+
+MB489PP/A
+MB496PP/A
+MB500PP/A
+MC131PP/A
+MC132PP/A
+MC133PP/A
+MC134PP/A
+
+====================
+Country: Poland
+Carrier: Orange
+
+MB489PL/A
+MB496PL/A
+MB500PL/A
+MC131PL/A
+MC132PL/A
+MC133PL/A
+MC134PL/A
+
+====================
+Country: Poland
+Carrier: Era
+
+MB489PL/A
+MB496PL/A
+MB500PL/A
+MC131PL/A
+MC132PL/A
+MC133PL/A
+MC134PL/A
+
+====================
+Country: Portugal
+Carrier: Optimus
+
+MB489PO/A
+MB496PO/A
+MB500PO/A
+MC131PO/A
+MC132PO/A
+MC133PO/A
+MC134PO/A
+
+====================
+Country: Portugal
+Carrier: Vodafone
+
+MB489PO/A
+MB496PO/A
+MB500PO/A
+MC131PO/A
+MC132PO/A
+MC133PO/A
+MC134PO/A
+
+====================
+Country: Romania
+Carrier: Orange
+
+MB489RO/A
+MB496RO/A
+MB500RO/A
+MC131RO/A
+MC132RO/A
+MC133RO/A
+MC134RO/A
+
+====================
+Country: Russia
+Carrier: Beeline
+
+MB489RS/A
+MB496RS/A
+MB500RS/A
+MC131RS/A
+MC132RS/A
+MC133RS/A
+MC134RS/A
+
+====================
+Country: Russia
+Carrier: MegaFon
+
+MB489RS/A
+MB496RS/A
+MB500RS/A
+MC131RS/A
+MC132RS/A
+MC133RS/A
+MC134RS/A
+
+====================
+Country: Russia
+Carrier: MTS
+
+MB489RS/A
+MB496RS/A
+MB500RS/A
+MC131RS/A
+MC132RS/A
+MC133RS/A
+MC134RS/A
+
+====================
+Country: Saudi Arabia
+Carrier: Mobily
+
+MB489AB/A
+MB496AB/A
+MB500AB/A
+MC131AB/A
+MC132AB/A
+MC133AB/A
+MC134AB/A
+
+====================
+Country: Singapore
+Carrier: M1
+
+MB489ZA/A
+MB496ZA/A
+MB500ZA/A
+MC131ZA/A
+MC132ZA/A
+MC133ZA/A
+MC134ZA/A
+
+====================
+Country: Singapore
+Carrier: SingTel
+
+MB489ZA/A
+MB496ZA/A
+MB500ZA/A
+MC131ZA/A
+MC132ZA/A
+MC133ZA/A
+MC134ZA/A
+
+====================
+Country: Singapore
+Carrier: StarHub
+
+MB489ZA/A
+MB496ZA/A
+MB500ZA/A
+MC131ZA/A
+MC132ZA/A
+MC133ZA/A
+MC134ZA/A
+
+====================
+Country: Slovakia
+Carrier: Orange
+
+MB489SL/A
+MB496SL/A
+MB500SL/A
+MC131SL/A
+MC132SL/A
+MC133SL/A
+MC134SL/A
+
+====================
+Country: Slovakia
+Carrier: T-Mobile
+
+MB490SL/A
+MB497SL/A
+MB501SL/A
+MC139SL/A
+MC140SL/A
+MC141SL/A
+MC142SL/A
+
+====================
+Country: South Africa
+Carrier: Vodacom
+
+MB489SO/A
+MB496SO/A
+MB500SO/A
+MC131SO/A
+MC132SO/A
+MC133SO/A
+MC134SO/A
+
+====================
+Country: Spain
+Carrier: Movistar
+
+MB757Y/A
+MB759Y/A
+MB760Y/A
+MC131Y/A
+MC132Y/A
+MC133Y/A
+MC134Y/A
+
+====================
+Country: Sweden
+Carrier: Telia
+
+MB489KS/A
+MB496KS/A
+MB500KS/A
+MC131KS/A
+MC132KS/A
+MC133KS/A
+
+====================
+Country: Switzerland
+Carrier: Orange
+
+MB489FD/A
+MB496FD/A
+MB500FD/A
+MC131FD/A
+MC132FD/A
+MC133FD/A
+MC134FD/A
+
+====================
+Country: Switzerland
+Carrier: Swisscom
+
+MB489FD/A
+MB496FD/A
+MB500FD/A
+MC131FD/A
+MC132FD/A
+MC133FD/A
+MC134FD/A
+
+====================
+Country: Taiwan
+Carrier: Chunghwa Telecom
+
+MB489TA/A
+MB496TA/A
+MB500TA/A
+MC131TA/A
+MC132TA/A
+MC133TA/A
+MC134TA/A
+
+====================
+Country: Turkey
+Carrier: TurkCell
+
+MB489TU/A
+MB496TU/A
+MB500TU/A
+MC131TU/A
+MC132TU/A
+MC133TU/A
+MC134TU/A
+
+====================
+Country: Turkey
+Carrier: Vodafone
+
+MB489TU/A
+MB496TU/A
+MB500TU/A
+MC131TU/A
+MC132TU/A
+MC133TU/A
+MC134TU/A
+
+====================
+Country: UK
+Carrier: O2
+
+MB489B/A
+MB496B/A
+MB500B/A
+MC131B/A
+MC132B/A
+MC133B/A
+MC134B/A
+
+====================
+Country: United Arab Emirates
+Carrier: Etisalat
+
+MB489AB/A
+MB496AB/A
+MB500AB/A
+MC131AB/A
+MC132AB/A
+MC133AB/A
+MC134AB/A
+
+====================
+Country: United Arab Emirates
+Carrier: DU
+
+MB489AB/A
+MB496AB/A
+MB500AB/A
+MC131AB/A
+MC132AB/A
+MC133AB/A
+MC134AB/A
+
+====================
+Country: Uruguay
+Carrier: CTI Movil
+
+MB489LZ/A
+MB496LZ/A
+MB500LZ/A
+MC131LZ/A
+MC132LZ/A
+MC133LZ/A
+MC134LZ/A
+
+====================
+Country: Uruguay
+Carrier: Movistar
+
+MB489LZ/A
+MB496LZ/A
+MB500LZ/A
+MC131LZ/A
+MC132LZ/A
+MC133LZ/A
+MC134LZ/A
+
+====================
+Country: USA
+Carrier: AT&T
+
+MB046LL/A
+MB048LL/A
+MB499LL/A
+MB702LL/A
+MB704LL/A
+MB705LL/A
+MB715LL/A
+MB716LL/A
+MB717LL/A
+MB718LL/A
+MB719LL/A
+MC135LL/A
+MC136LL/A
+MC137LL/A
+MC138LL/A

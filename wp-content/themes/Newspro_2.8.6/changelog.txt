@@ -1,0 +1,73 @@
+Newspro 2.8.6 (from 2.8.5)
+  1. Custom menu display fix
+  
+Newspro 2.8.5 (from 2.8.4)
+  1. Update flowplayer
+  2. Update framework
+  3. Update timthumb
+
+  4. Fix number of posts for tabbed section
+
+
+Newspro 2.8.4 (from 2.8.3)  
+  1. Fix to display single header image
+  2. Replace style="maximum-width:970px; with "max-width:970p"
+
+
+Newspro 2.8.3 (from 2.8.2)
+  1.  Fix "Permalink to" string display
+
+Newspro 2.8.2 (from 2.8.1)
+  1.  Localization files path fix
+  2.  Remove the option to exclude pages from search results
+  3.  Fix auto rotate option of media slider
+  4.  Fix custom menu (clear after <ul>)
+
+Newspro 2.8.1 (from 2.8)
+  1.  Fix default image call issue for inner pages
+  2.  Change widget class and names
+  3.  Change lineheight of featured navigation
+  4.  Remove fea_thumb_title span-class
+
+Newspro 2.8 (from 2.7.4)
+  1.  New theme options panel
+  2.  New framework
+  3.  New innerpage slider
+  4.  New shortlink box
+  5.  HTML5 Framework
+  6.  New jquery tabs
+  7.  New thumbnail functions (post thumbnail + viva)
+  8.  New media module (with addition of Youtube and Vimeo keys)
+  9.  New comment form
+  10. New Dropdown menu script (suckerfish)
+  11. New media category page
+
+Newspro 2.7.4 (from 2.7.3)
+  1. Fix line/height for submit button
+
+Newspro 2.7.3 (from 2.7.2)
+  1.  Update TimThumb script
+  2.  Update Flowplayer
+  3.  Add missing " for custom field image
+  4.  Add custom background support
+  5.  Add prefix for theme thumbnails
+  6.  Fix wpmu subblog admin access to theme settings page
+  7.  Add post title as alt value to images
+  8.  Fix innerpage slider display
+  9.  Fix gettext domain name
+
+Newspro 2.7.2  (from 2.7.1)
+  1.  Remove switcher codes at header.php
+
+Newspro 2.7.1
+  1.  Add framework options
+  2.  Add category based advertisement
+  3.  Change 3 column innerpage to 2 column
+  4.  Add media gallery module
+  5.  Add innerpage photo slider
+  6.  Add custom navigation support
+  7.  Change theme settings page
+  8.  Add short url
+  9.  Add custom page templates
+  10. Add custom archive template
+  11. Improve theme SEO
