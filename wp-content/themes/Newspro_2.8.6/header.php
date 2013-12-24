@@ -86,7 +86,7 @@ $j(document).ready(function() {
 	grab = new Player({ id: '1935766', width : 300, height : 250 });
 
 	<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
-		grab.setVolume(0)
+		grab.setVolume(1)
 	<?php } ?>
 
 	// finally we respond to appropriate events using the library provided
@@ -97,7 +97,7 @@ $j(document).ready(function() {
 		console.log('player ready');
 
 		<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
-			grab.setVolume(0)
+			grab.setVolume(1)
 		<?php } ?>		
 
 	  if ($j.inArray(location.pathname, reload_resources) != -1) {
