@@ -156,7 +156,7 @@ $j(document).ready(function() {
 </head>
 
 <body>
-<div id="asdf" ></div>
+<div id="change-grabDiv1935766" ></div>
 
 <?php if (!isset($_REQUEST['sound'])) { ?>
   <?php if (strstr($_SERVER['HTTP_USER_AGENT'], 'firefox') !== false) { ?>
