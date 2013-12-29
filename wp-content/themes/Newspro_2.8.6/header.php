@@ -81,7 +81,7 @@ $j(document).ready(function() {
 	// are also removing the flash element definition as it
 	// is now being replaced by our player
 	container = $j('object').parent().attr('id', 'grabDiv1935766');
-
+	return 
 	// bind a reference to flash player to grab 
 	grab = new Player({ id: '1935766', width : 300, height : 250 });
 
@@ -94,7 +94,7 @@ $j(document).ready(function() {
 
 	grab.on ( evt.PLAYER_READY, function() { 
 		opt_event('vload');
-		console.log('player ready');
+		console.log('player ready now');
 
 		<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
 			grab.setVolume(1)
