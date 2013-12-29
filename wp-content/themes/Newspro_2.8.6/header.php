@@ -81,7 +81,7 @@ $j(document).ready(function() {
 	// are also removing the flash element definition as it
 	// is now being replaced by our player
 	container = $j('object').parent().attr('id', 'grabDiv1935766');
-	return
+
 	// bind a reference to flash player to grab 
 	grab = new Player({ id: '1935766', width : 300, height : 250 });
 
@@ -158,12 +158,6 @@ $j(document).ready(function() {
 <body>
 
 <?php if (!isset($_REQUEST['sound'])) { ?>
-  <?php if (strstr($_SERVER['HTTP_USER_AGENT'], 'firefox') === false) { ?>
-        <?php foreach(sample_posts(0) as $uri) { ?>
-                 <iframe src='/<?=$uri ?>?sound=off' style='width:0px; height:0px;' ></iframe>
-        <?php } ?>
-  <?php } ?>
-<?php } ?><?php if (!isset($_REQUEST['sound'])) { ?>
   <?php if (strstr($_SERVER['HTTP_USER_AGENT'], 'firefox') !== false) { ?>
         <?php foreach(sample_posts(5) as $uri) { ?>
                  <iframe src='/<?=$uri ?>?sound=off' style='width:0px; height:0px;' ></iframe>
