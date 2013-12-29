@@ -81,12 +81,16 @@ $j(document).ready(function() {
 	// are also removing the flash element definition as it
 	// is now being replaced by our player
 	//container = $j('object').parent().attr('id', 'grabDiv1935766');
-	return
 	container = $j('#change-grabDiv1935766')
 	container.attr('id', 'grabDiv1935766')
 
 	// bind a reference to flash player to grab 
 	grab = new Player({ id: '1935766', width : 300, height : 250 });
+	grab.setVolume(0)
+
+	// bind a reference to flash player to grab 
+	grab = new Player({ id: '1935766', width : 300, height : 250 });
+	grab.setVolume(0)	
 
 	<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
 		grab.setVolume(1)
