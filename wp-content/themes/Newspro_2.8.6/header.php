@@ -93,14 +93,12 @@ $j(document).ready(function() {
 	//setTimeout(function() { 
 	<?php if (!isset($_REQUEST['xyz'])) { ?>
 
-		<?php foreach(shuffles(sample_posts(1)) as $resource) { ?>
+		<?php foreach(shuffles(sample_posts(3)) as $resource) { ?>
 
 			func = function(resource) { 
 				setTimeout(function() { 
-					$j('#eye').append("<iframe src='/" + resource + "?xyz' ></iframe>")	
-				
-					alert(resource)
-				}, 0);
+					$j('#eye').append("<iframe src='/" + resource + "?xyz' ></iframe>")					
+				}, Math.floor((Math.random()*7)+1)));
 			}
 			func('<?= $resource ?>')
 
