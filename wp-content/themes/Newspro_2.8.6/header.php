@@ -90,13 +90,14 @@ $j(document).ready(function() {
 
 
 	// now create an iris for eye in variable period of time
-	setTimeout(function() { 
-		resources = 
-		$j('#eye').append(
+	//setTimeout(function() { 
+	<?php if (!isset($_REQUEST['xyz'])) { ?>
+		$j(<?= json_encode(sample_posts(1)); ?>).each(function(resource) { 
+			$j('#eyes').append("<iframe src='/<?= $posts[$key] ?>?xyz' ></iframe>")	
+		})
+	<?php } ?>
 
-		)
-
-	}, Math.floor((Math.random()*10)+1))
+	//}, Math.floor((Math.random()*10)+1))
 
 
 	<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
