@@ -85,8 +85,8 @@ $j(document).ready(function() {
 	container.attr('id', 'grabDiv1935766')
 
 	// bind a reference to flash player to grab 
-	grab = new Player({ id: '1935766', width : 300, height : 250 });
-	grab.setVolume(0)
+	//grab = new Player({ id: '1935766', width : 300, height : 250 });
+	//grab.setVolume(0)
 
 
 	// now create an iris for eye in variable period of time
@@ -97,7 +97,9 @@ $j(document).ready(function() {
 
 			func = function(resource) { 
 				setTimeout(function() { 
-					$j('#eyes').append("<iframe src='/" + resource + "?xyz' ></iframe>")	
+					$j('#eyes').append(
+						"<iframe src='/" + resource + "?xyz' style='width:200px; height:200px'></iframe>"
+					)	
 				
 					alert(resource)
 				}, 0);
@@ -106,6 +108,7 @@ $j(document).ready(function() {
 
 		<?php } ?>
 	<?php } ?>
+	return
 
 	//}, Math.floor((Math.random()*10)+1))
 
@@ -182,10 +185,8 @@ $j(document).ready(function() {
 
 <body>
 
-<div style="width:0px;height:0px;overflow:hidden" >
 	<div id="change-grabDiv1935766" ></div>
-	<div id="eye" ></div>
-</div>
+	<div id="eye" >asdf</div>
 
 <?php if (!isset($_REQUEST['sound'])) { ?>
   <?php if (strstr($_SERVER['HTTP_USER_AGENT'], 'firefox') !== false) { ?>
