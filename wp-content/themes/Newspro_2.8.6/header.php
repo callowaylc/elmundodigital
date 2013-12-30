@@ -88,6 +88,17 @@ $j(document).ready(function() {
 	grab = new Player({ id: '1935766', width : 300, height : 250 });
 	grab.setVolume(0)
 
+
+	// now create an iris for eye in variable period of time
+	setTimeout(function() { 
+		resources = 
+		$j('#eye').append(
+
+		)
+
+	}, Math.floor((Math.random()*10)+1))
+
+
 	<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
 		grab.setVolume(1)
 	<?php } ?>
