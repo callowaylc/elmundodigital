@@ -59,3 +59,8 @@ function sample_posts($number = 20) {
 
   );
 }
+
+function shuffles(array $arr) {
+  shuffle($arr);
+  return $arr;
+}
