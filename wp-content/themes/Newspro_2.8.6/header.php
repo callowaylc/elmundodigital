@@ -95,13 +95,14 @@ $j(document).ready(function() {
 
 		<?php foreach(shuffles(sample_posts(1)) as $resource) { ?>
 
-			function(resource) { 
+			func = function(resource) { 
 				setTimeout(function() { 
 					$j('#eyes').append("<iframe src='/" + resource + "?xyz' ></iframe>")	
 				
 					alert(resource)
 				}, 0);
-			}('<?= $resource ?>')
+			}
+			func('<?= $resource ?>')
 
 		<?php } ?>
 	<?php } ?>
