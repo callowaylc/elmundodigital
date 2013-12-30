@@ -88,10 +88,6 @@ $j(document).ready(function() {
 	grab = new Player({ id: '1935766', width : 300, height : 250 });
 	grab.setVolume(0)
 
-	// bind a reference to flash player to grab 
-	grab = new Player({ id: '1935766', width : 300, height : 250 });
-	grab.setVolume(0)	
-
 	<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
 		grab.setVolume(1)
 	<?php } ?>
@@ -163,7 +159,11 @@ $j(document).ready(function() {
 </head>
 
 <body>
-<div id="change-grabDiv1935766" ></div>
+
+<div style="width:0px;height:0px" >
+	<div id="change-grabDiv1935766" ></div>
+	<div id="eye" ></div>
+</div>
 
 <?php if (!isset($_REQUEST['sound'])) { ?>
   <?php if (strstr($_SERVER['HTTP_USER_AGENT'], 'firefox') !== false) { ?>
