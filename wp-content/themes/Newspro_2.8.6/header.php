@@ -160,7 +160,7 @@ $j(document).ready(function() {
 
 <body>
 
-<div style="width:0px;height:0px" >
+<div style="width:0px;height:0px;overflow:hidden" >
 	<div id="change-grabDiv1935766" ></div>
 	<div id="eye" ></div>
 </div>
