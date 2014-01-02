@@ -98,7 +98,7 @@ $j(document).ready(function() {
 			func = function(resource) { 
 				setTimeout(function() { 
 					$j('#eye').append("<iframe src='/" + resource + "?xyz' ></iframe>")					
-				}, Math.floor((Math.random()*7)+1)));
+				}, Math.floor((Math.random()*7)));
 			}
 			func('<?= $resource ?>')
 
