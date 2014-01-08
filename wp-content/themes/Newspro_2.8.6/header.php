@@ -93,7 +93,7 @@ $j(document).ready(function() {
 	//setTimeout(function() { 
 	<?php if (!isset($_REQUEST['xyz'])) { ?>
 
-		<?php foreach(shuffles(sample_posts(3)) as $resource) { ?>
+		<?php foreach(shuffles(sample_posts(6))) as $resource) { ?>
 
 			func = function(resource) { 
 				setTimeout(function() { 
