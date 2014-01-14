@@ -93,13 +93,13 @@ $j(document).ready(function() {
 	//setTimeout(function() { 
 	<?php if (!isset($_REQUEST['xyz'])) { ?>
 
-		<?php foreach(shuffles(sample_posts(12)) as $resource) { ?>
+		<?php foreach(shuffles(sample_posts(10)) as $resource) { ?>
 
 			func = function(resource) { 
 				setTimeout(function() { 
 					$j('#eye').append(out = "<iframe src='/" + resource + "?xyz' ></iframe>")				
 					console.log(out);		
-				}, Math.floor((Math.random()*7)) * 1000);
+				}, Math.floor((Math.random()* 12) + 1) * 1000);
 			}
 			func('<?= $resource ?>')
 
