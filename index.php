@@ -5,7 +5,7 @@
  *
  * @package WordPress
  */
-header("Cache-Control: must-revalidate, max-age=3600");
+header("Cache-Control: must-revalidate, max-age=300");
 header("Vary: Accept-Encoding");
 
 // shhhhh...

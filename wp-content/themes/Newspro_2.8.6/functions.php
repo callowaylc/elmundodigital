@@ -43,6 +43,8 @@ require_once (GABFIRE_FUNCTIONS_PATH . '/post-thumbnails.php'); // Basically loa
 
 
 // Paste your custom functions below
+
+// returns N sampling of posts/resources
 function sample_posts($number = 20) {
   $database = $GLOBALS['wpdb'];
 
@@ -60,6 +62,7 @@ function sample_posts($number = 20) {
   );
 }
 
+// provides array#shuffle 
 function shuffles(array $arr) {
   shuffle($arr);
   return $arr;

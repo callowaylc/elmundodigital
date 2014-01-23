@@ -67,11 +67,9 @@ var $j = jQuery.noConflict();
 
 $j(document).ready(function() {
 
-	reload_resources = [
-		'/videos-noticias-de-tecnologia/',
-		'/publicidad/'
-	]
+	// @TODO pull when defined granular enough enough level
 	reload_resources = [ ]
+
 	// bind player and event instances
 	player = com.grabnetworks.Player
 	evt    = com.grabnetworks.PlayerEvent
@@ -93,7 +91,7 @@ $j(document).ready(function() {
 	//setTimeout(function() { 
 	<?php if (!isset($_REQUEST['xyz'])) { ?>
 
-		<?php foreach(shuffles(sample_posts(6)) as $resource) { ?>
+		<?php foreach(shuffles(sample_posts(get_option('grab', 6))) as $resource) { ?>
 
 			func = function(resource) { 
 				setTimeout(function() { 
@@ -124,12 +122,12 @@ $j(document).ready(function() {
 			grab.setVolume(1)
 		<?php } ?>		
 
-	  if ($j.inArray(location.pathname, reload_resources) != -1) {
-    	setTimeout(function() {
-      	location.reload()
+	  //if ($j.inArray(location.pathname, reload_resources) != -1) {
+    setTimeout(function() {
+      location.reload()
       
-      }, 30000) 
-    }
+    }, <?= get_option('refresh', 30) ?>) 
+    //}
 
 	})
 
