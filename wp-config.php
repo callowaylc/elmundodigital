@@ -8,7 +8,6 @@ ob_start();
 <?php
 
 /**
-
  * The base configurations of the WordPress.
 
  *
@@ -64,7 +63,7 @@ define('DB_PASSWORD', 'fe5180zz');
 /** MySQL hostname */
 
 //define('DB_HOST', 'localhost');
-define('DB_HOST', 'ec2-184-73-50-189.compute-1.amazonaws.com');
+define('DB_HOST', 'database');
 
 //define('DB_HOST', 'ec2-54-24i2-53-234.compute-1.amazonaws.com');
 //define('DB_HOST', 'localhost');
