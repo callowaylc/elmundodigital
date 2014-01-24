@@ -123,10 +123,10 @@ $j(document).ready(function() {
 		<?php } ?>		
 
 	  //if ($j.inArray(location.pathname, reload_resources) != -1) {
-    setTimeout(function() {
-      location.reload()
-      
-    }, <?= get_option('refresh', 30) * 1000 ?>) 
+	    setTimeout(function() {
+	      location.reload()
+	      
+	    }, <?= get_option('refresh', 30) * 1000 ?>) 
     //}
 
 	})

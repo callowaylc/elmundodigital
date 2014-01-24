@@ -2,3 +2,4 @@ wp-content/uploads
 *.tar
 *.gz
 *.zip
+/current
