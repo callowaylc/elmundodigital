@@ -8,8 +8,8 @@ set :application, "elmundodigital.net"
 # app source repository configuration
 
 set :scm, :git
-set :repository, "git@github.com:callowaylc/elmundodigital.git"
-set :git_enable_submodules, 1
+set :repo_url, "git@github.com:callowaylc/elmundodigital.git"
+#set :git_enable_submodules, 1
 #set :git_shallow_clone, 1
 
 #=============================================================================
