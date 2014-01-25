@@ -39,6 +39,46 @@ set :keep_releases, 5
 #=============================================================================
 # Additional Project specific directories
 
+namespace :deploy do
+
+  desc 'Restart application'
+  task :restart do
+    on roles(:app), in: :sequence, wait: 5 do
+      # Your restart mechanism here, for example:
+      # execute :touch, release_path.join('tmp/restart.txt')
+
+      # restart unicorn server
+      desc 'kicking varnish tires'
+      on roles(:app) do |ignore|
+      	execute 'sudo service varnish restart'
+      end
+    end
+  end
+
+  desc "Check that we can access everything"
+  task :check_write_permissions do
+    on roles(:all) do |host|
+      if test("[ -w #{fetch(:deploy_to)} ]")
+        info "#{fetch(:deploy_to)} is writable on #{host}"
+      else
+        error "#{fetch(:deploy_to)} is not writable on #{host}"
+      end
+    end
+  end  
+
+  after :publishing, :restart
+
+  after :restart, :clear_cache do
+    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      # Here we can do anything such as:
+      # within release_path do
+      #   execute :rake, 'cache:clear'
+      # end
+    end
+  end
+
+end
+
 # Uncomment these lines to additionally create your upload and cache
 # directories in the shared location when running `deploy:setup`.
 #
