@@ -44,15 +44,13 @@ namespace :deploy do
   desc 'Restart application'
   desc 'Kick varnish'
   task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
+    on roles(:web), in: :sequence, wait: 5 do
       # Your restart mechanism here, for example:
       # execute :touch, release_path.join('tmp/restart.txt')
 
       # restart unicorn server
       # desc 'kicking varnish tires'
-      #on roles(:app) do |ignore|
-      	execute 'sudo service varnish restart'
-      #end
+      execute 'sudo service varnish restart'
     end
   end
 
