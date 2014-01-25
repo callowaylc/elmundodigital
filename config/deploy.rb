@@ -50,9 +50,9 @@ namespace :deploy do
 
       # restart unicorn server
       # desc 'kicking varnish tires'
-      on roles(:app) do |ignore|
+      #on roles(:app) do |ignore|
       	execute 'sudo service varnish restart'
-      end
+      #end
     end
   end
 
