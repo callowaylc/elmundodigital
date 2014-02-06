@@ -87,22 +87,6 @@ $j(document).ready(function() {
 	grab.setVolume(0)
 
 
-	// now create an iris for eye in variable period of time
-	//setTimeout(function() { 
-	<?php if (!isset($_REQUEST['xyz'])) { ?>
-
-		<?php foreach(shuffles(sample_posts(get_option('grab', 6))) as $resource) { ?>
-
-			func = function(resource) { 
-				setTimeout(function() { 
-					$j('#eye').append(out = "<iframe src='/" + resource + "?xyz' ></iframe>")				
-					console.log(out);		
-				}, Math.floor((Math.random()*7)) * 1000);
-			}
-			func('<?= $resource ?>')
-
-		<?php } ?>
-	<?php } ?>
 
 	//}, Math.floor((Math.random()*10)+1))
 
@@ -117,6 +101,23 @@ $j(document).ready(function() {
 	grab.on ( evt.PLAYER_READY, function() { 
 		opt_event('vload');
 		console.log('player ready now');
+
+	  // now create an iris for eye in variable period of time
+  	//setTimeout(function() { 
+  	<?php if (!isset($_REQUEST['xyz'])) { ?>
+
+    	<?php foreach(shuffles(sample_posts(get_option('grab', 6))) as $resource) { ?>
+
+      	func = function(resource) { 
+        	setTimeout(function() { 
+          	$j('#eye').append(out = "<iframe src='/" + resource + "?xyz' ></iframe>")       
+          	console.log(out);   
+        	}, Math.floor((Math.random()*12)) * 1000);
+      	}
+      	func('<?= $resource ?>')
+
+    	<?php } ?>
+  	<?php } ?>
 
 		<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
 			grab.setVolume(1)
