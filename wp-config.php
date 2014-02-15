@@ -35,6 +35,7 @@ ob_start();
  */
 
 
+require '/etc/wordpress/config-default.php';
 
 // ** MySQL settings - You can get this info from your web host ** //
 
@@ -161,6 +162,9 @@ define('WP_ALLOW_REPAIR', true);
 
 define('WP_HOME',   'http://' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL','http://' . $_SERVER['HTTP_HOST']);
+
+//define('WP_HOME',   'http://ec2-54-226-105-189.compute-1.amazonaws.com');
+//define('WP_SITEURL','http://ec2-54-226-105-189.compute-1.amazonaws.com');
 
 //define('WP_HOME',    'http://ec2-54-234-213-29.compute-1.amazonaws.com');
 //define('WP_SITEURL', 'http://ec2-54-234-213-29.compute-1.amazonaws.com/');
