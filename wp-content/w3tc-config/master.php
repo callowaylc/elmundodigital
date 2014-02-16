@@ -285,8 +285,8 @@ return array(
 	'cdn.ftp.domain' => array(
 	),
 	'cdn.ftp.ssl' => 'auto',
-	//'cdn.s3.key' => 'AKIAJBUZ4W3TURHJYR6Q',
-	//'cdn.s3.secret' => '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',
+	'cdn.s3.key' => '',
+	'cdn.s3.secret' => '',
 	'cdn.s3.bucket' => 'elmundodigital.net',
 	'cdn.s3.cname' => array(
 	),
