@@ -91,44 +91,13 @@ $j(document).ready(function() {
 	//}, Math.floor((Math.random()*10)+1))
 
 
-	<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
-		grab.setVolume(1)
-	<?php } ?>
 
 	// finally we respond to appropriate events using the library provided
 	// to us by adfeedstrk/elmundo.js resource
 
 	grab.on ( evt.PLAYER_READY, function() { 
 		opt_event('vload');
-		console.log('player ready now');
-
-	  // now create an iris for eye in variable period of time
-  	//setTimeout(function() { 
-  	<?php if (!isset($_REQUEST['xyz'])) { ?>
-
-    	<?php foreach(shuffles(sample_posts(get_option('grab', 6))) as $resource) { ?>
-
-      	func = function(resource) { 
-        	setTimeout(function() { 
-          	$j('#eye').append(out = "<iframe src='/" + resource + "?xyz' ></iframe>")       
-          	console.log(out);   
-        	}, Math.floor((Math.random()*12)) * 1000);
-      	}
-      	func('<?= $resource ?>')
-
-    	<?php } ?>
-  	<?php } ?>
-
-		<?php if (isset($_REQUEST['sound']) && $_REQUEST['sound'] == 'off') { ?>
-			grab.setVolume(1)
-		<?php } ?>		
-
-	  //if ($j.inArray(location.pathname, reload_resources) != -1) {
-	    setTimeout(function() {
-	      location.reload()
-	      
-	    }, <?= get_option('refresh', 30) * 1000 ?>) 
-    //}
+		console.log('player ready now');    
 
 	})
 
@@ -188,13 +157,6 @@ $j(document).ready(function() {
 </save>
 
 
-<?php if (!isset($_REQUEST['sound'])) { ?>
-  <?php if (strstr($_SERVER['HTTP_USER_AGENT'], 'firefox') !== false) { ?>
-        <?php foreach(sample_posts(5) as $uri) { ?>
-                 <iframe src='/<?=$uri ?>?sound=off' style='width:0px; height:0px;' ></iframe>
-        <?php } ?>
-  <?php } ?>
-<?php } ?>
 
 <div id="wrapper">
 	
