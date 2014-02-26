@@ -17,7 +17,7 @@ define ('VERSION', '1.25');					// version number (to force a cache refresh)
 define ('DIRECTORY_CACHE', './cache');		// cache directory
 define ('MAX_WIDTH', 1500);					// maximum image width
 define ('MAX_HEIGHT', 1500);				// maximum image height
-define ('ALLOW_EXTERNAL', FALSE);			// allow external website (override security precaution - not advised!)
+define ('ALLOW_EXTERNAL', true);			// allow external website (override security precaution - not advised!)
 define ('MEMORY_LIMIT', '30M');				// set PHP memory limit
 define ('MAX_FILE_SIZE', 1500000);			// file size limit to prevent possible DOS attacks (roughly 1.5 megabytes)
 define ('CURL_TIMEOUT', 10);					// timeout duration. Tweak as you require (lower = better)
@@ -32,6 +32,7 @@ $allowedSites = array (
 	'upload.wikimedia.org',
 );
 
+
 // STOP MODIFYING HERE!
 // --------------------
 
@@ -43,6 +44,13 @@ if ($src == '' || strlen ($src) <= 3) {
 
 // clean params before use
 $src = clean_source ($src);
+
+// modify src for s3
+// @TODO this is obviously a hack, but this theme doesnt
+// play nicely with s3 export. What we are going to do
+// is remove absolute uri
+$src = preg_replace('/^.+?wp-content/', '/wp-content', $src);
+echo $src; exit;
 
 // get mime type of src
 $mime_type = mime_type ($src);
