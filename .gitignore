@@ -3,3 +3,4 @@ wp-content/uploads
 *.gz
 *.zip
 /current
+cache

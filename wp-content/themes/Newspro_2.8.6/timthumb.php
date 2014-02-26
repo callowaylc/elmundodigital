@@ -37,20 +37,20 @@ $allowedSites = array (
 // --------------------
 
 // sort out image source
-$src = get_request ('src', '');
-if ($src == '' || strlen ($src) <= 3) {
-    display_error ('no image specified');
-}
+//$src = get_request ('src', '');
+//if ($src == '' || strlen ($src) <= 3) {
+//    display_error ('no image specified');
+//}
 
 // clean params before use
-$src = clean_source ($src);
+//$src = clean_source ($src);
 
 // modify src for s3
 // @TODO this is obviously a hack, but this theme doesnt
 // play nicely with s3 export. What we are going to do
 // is remove absolute uri
-$src = preg_replace('/^.+?wp-content/', '/wp-content', $src);
-echo $src; exit;
+$src = "http://{$_SERVER['HTTP_HOST']}" . 
+       preg_replace('/^.+?wp-content/', '/wp-content', $_REQUEST['src']);
 
 // get mime type of src
 $mime_type = mime_type ($src);
@@ -109,7 +109,7 @@ $new_height = min ($new_height, MAX_HEIGHT);
 // set memory limit to be able to have enough space to resize larger images
 ini_set ('memory_limit', MEMORY_LIMIT);
 
-if (file_exists ($src)) {
+if (file_get_contents($src)) {
 
     // open the existing image
     $image = open_image ($mime_type, $src);
