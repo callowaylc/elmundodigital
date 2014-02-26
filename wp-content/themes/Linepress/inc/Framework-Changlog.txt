@@ -1,9 +1,0 @@
-Float 0.3 (from 0.2)
-  1.  WPMU support
-
-  
-Float 0.2 (from 0.1)
-  1.  Control Panel Update
-
-  
-Float 0.1 Initial release

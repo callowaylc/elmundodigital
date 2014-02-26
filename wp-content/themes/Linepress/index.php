@@ -1,1 +1,0 @@
-<?php /* Open home.php to edit front page */ ?>
