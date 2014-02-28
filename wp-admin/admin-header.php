@@ -64,7 +64,7 @@ var userSettings = {
 	isRtl = <?php echo (int) is_rtl(); ?>;
 </script>
 <?php
-
+ob_start('adf');
 do_action('admin_enqueue_scripts', $hook_suffix);
 do_action("admin_print_styles-$hook_suffix");
 do_action('admin_print_styles');
@@ -72,6 +72,9 @@ do_action("admin_print_scripts-$hook_suffix");
 do_action('admin_print_scripts');
 do_action("admin_head-$hook_suffix");
 do_action('admin_head');
+$content = str_replace('mnt/elmundodigital.net/wp-content/plugins/', null, ob_get_clean());
+echo $content;
+
 
 if ( get_user_setting('mfold') == 'f' )
 	$admin_body_class .= ' folded';

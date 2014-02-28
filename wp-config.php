@@ -155,13 +155,18 @@ if ( !defined('ABSPATH') )
 
 require_once(ABSPATH . 'wp-settings.php');
 
-
+define('WP_CONTENT_DIR',   ABSPATH . '/wp-content');
+define('WP_PLUGIN_DIR',   WP_CONTENT_DIR . '/plugins');
 define('WP_ALLOW_REPAIR', true);
+
 //define('WP_HOME',    'http://ec2-54-242-53-234.compute-1.amazonaws.com');
 //define('WP_SITEURL', 'http://ec2-54-242-53-234.compute-1.amazonaws.com');
 
 define('WP_HOME',   'http://' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL','http://' . $_SERVER['HTTP_HOST']);
+
+define('WP_CONTENT_URL', WP_HOME . '/wp-content');
+define('WP_PLUGIN_URL',  WP_CONTENT_URL . '/plugins');
 
 //define('WP_HOME',   'http://ec2-54-226-105-189.compute-1.amazonaws.com');
 //define('WP_SITEURL','http://ec2-54-226-105-189.compute-1.amazonaws.com');
