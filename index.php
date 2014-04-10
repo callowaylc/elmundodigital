@@ -25,12 +25,14 @@ $content = ob_get_clean();
 
 // remove all content between body if special param has been passed
 if (isset($_REQUEST['xyz'])) {
-
 	// match content in save
-	preg_match('#<save.+?</save>#is', $content, $match);
+	preg_match('#<!--\s*?save.+?<!--\s*?end.+?>#is', $content, $match);
+  
+  $saved   = preg_replace( '/<!--(.|\s)*?-->/' , '' , $match[0]);
 	$content = preg_replace(
-		'#<body.+?</body>#is', "<body>{$match[0]}</body>", $content
+		'#<body.+?</body>#is', "<body>$saved</body>", $content
 	);
 }
 
+// output to stdout
 echo $content;
