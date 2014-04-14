@@ -23,14 +23,20 @@ ob_start();
 require('./wp-blog-header.php');
 $content = ob_get_clean();
 
+$acl = [
+  '54.235.242.194',
+  '54.235.242.20'
+]
+
 // remove all content between body if special param has been passed
-if (isset($_REQUEST['xyz'])) {
+if (in_array($_SERVER['REMOTE_ADDR'], $acl)) {
 	// match content in save
 	preg_match('#<!--\s*?save.+?<!--\s*?end.+?>#is', $content, $match);
   
   $saved   = preg_replace( '/<!--(.|\s)*?-->/' , '' , $match[0]);
 	$content = preg_replace(
-		'#<body.+?</body>#is', "<body>$saved</body>", $content
+		'#<body.+?</body>#is', 
+    "<body style='visibility:hidden'>$saved</body>", $content
 	);
 }
 
