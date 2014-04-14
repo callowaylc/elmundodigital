@@ -24,11 +24,11 @@ require('./wp-blog-header.php');
 $content = ob_get_clean();
 
 $acl = [
-  '54.235.242.194',
-  '54.235.242.20',
-  '54.81.216.13',
-  '66.104.225.66'
+  '10.109.137.253',
+  '10.51.145.210',
+  '10.70.135.81'
 ];
+
 
 // remove all content between body if special param has been passed
 if (in_array($_SERVER['HTTP_X_FORWARDED_FOR'], $acl)) {
